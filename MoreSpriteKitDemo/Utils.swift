@@ -22,7 +22,7 @@ enum ButtonName: String {
 func addButton(buttonName: ButtonName, position: CGPoint, scene: SKScene) {
     let button = SKLabelNode(text: buttonName.rawValue)
     button.name = buttonName.rawValue
-    button.fontSize = 20
+    button.fontSize = 28
     button.fontColor = .white
     button.position = position
     scene.addChild(button)

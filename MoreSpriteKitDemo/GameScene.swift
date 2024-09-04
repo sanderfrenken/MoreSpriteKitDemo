@@ -3,7 +3,7 @@ import SpriteKit
 class GameScene: SKScene {
 
     override func didMove(to view: SKView) {
-        backgroundColor = .black
+        backgroundColor = .darkGray
         anchorPoint = CGPoint(x: 0.5, y: 0.5)
         addButtons()
     }

@@ -28,6 +28,8 @@
 		E08D0A112C88923000366FDB /* emitterLabel.sks in Resources */ = {isa = PBXBuildFile; fileRef = E08D0A0F2C88923000366FDB /* emitterLabel.sks */; };
 		E08D0A122C88923000366FDB /* spiralParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = E08D0A102C88923000366FDB /* spiralParticle.sks */; };
 		E08D0A192C8892FE00366FDB /* MoreSpriteKit in Frameworks */ = {isa = PBXBuildFile; productRef = E08D0A182C8892FE00366FDB /* MoreSpriteKit */; };
+		E08D0A1B2C8897E000366FDB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E08D0A1A2C8897E000366FDB /* README.md */; };
+		E08D0A1D2C88986700366FDB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E08D0A1C2C88986700366FDB /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,8 @@
 		E08D0A0B2C8891D800366FDB /* selectedButtonTexture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selectedButtonTexture.png; sourceTree = "<group>"; };
 		E08D0A0F2C88923000366FDB /* emitterLabel.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = emitterLabel.sks; sourceTree = "<group>"; };
 		E08D0A102C88923000366FDB /* spiralParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = spiralParticle.sks; sourceTree = "<group>"; };
+		E08D0A1A2C8897E000366FDB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E08D0A1C2C88986700366FDB /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 		E08D09D12C8890E700366FDB = {
 			isa = PBXGroup;
 			children = (
+				E08D0A1C2C88986700366FDB /* LICENSE */,
+				E08D0A1A2C8897E000366FDB /* README.md */,
 				E08D09DC2C8890E700366FDB /* MoreSpriteKitDemo */,
 				E08D09DB2C8890E700366FDB /* Products */,
 			);
@@ -211,6 +217,8 @@
 				E08D0A0C2C8891D800366FDB /* defaultButtonTexture.png in Resources */,
 				E08D0A122C88923000366FDB /* spiralParticle.sks in Resources */,
 				E08D09EB2C8890E700366FDB /* Assets.xcassets in Resources */,
+				E08D0A1D2C88986700366FDB /* LICENSE in Resources */,
+				E08D0A1B2C8897E000366FDB /* README.md in Resources */,
 				E08D09EE2C8890E700366FDB /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
