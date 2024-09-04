@@ -1,0 +1,15 @@
+{
+  "originHash" : "eac708237400744abdb00e4d0b1689cda209cd23b7242b24bc3511bf64fce3a2",
+  "pins" : [
+    {
+      "identity" : "morespritekit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sanderfrenken/MoreSpriteKit",
+      "state" : {
+        "branch" : "master",
+        "revision" : "7ff0d8d909dfc9f0e97e3187cdacf6c87646fdf2"
+      }
+    }
+  ],
+  "version" : 3
+}
