@@ -20,6 +20,6 @@ class DemoScene: SKScene {
 
     func onBackPressed() {
         guard let view = self.view else { return }
-        view.presentScene(GameScene(size: view.frame.size), transition: defaultTransition)
+        view.presentScene(GameScene(size: view.frame.size), transition: getDefaultTransition())
     }
 }

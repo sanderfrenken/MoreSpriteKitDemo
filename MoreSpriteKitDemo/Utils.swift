@@ -1,6 +1,8 @@
 import SpriteKit
 
-let defaultTransition = SKTransition.fade(with: .black, duration: 1)
+func getDefaultTransition() -> SKTransition {
+    return .fade(with: .black, duration: 1)
+}
 
 var randomPosition: CGPoint {
     let randomX = CGFloat.random(in: -100...100)
@@ -19,6 +21,7 @@ enum ButtonName: String {
     case emitterLabel
 }
 
+@MainActor
 func addButton(buttonName: ButtonName, position: CGPoint, scene: SKScene) {
     let button = SKLabelNode(text: buttonName.rawValue)
     button.name = buttonName.rawValue

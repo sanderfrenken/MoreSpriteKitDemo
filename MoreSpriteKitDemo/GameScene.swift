@@ -25,19 +25,19 @@ class GameScene: SKScene {
         if let touch = touches.first {
             let nodeNameTouched = self.atPoint(touch.location(in: self)).name ?? ""
             if nodeNameTouched == ButtonName.animatedLabel.rawValue {
-                view.presentScene(DemoSceneAnimatedLabel(size: sceneSize), transition: defaultTransition)
+                view.presentScene(DemoSceneAnimatedLabel(size: sceneSize), transition: getDefaultTransition())
             } else if nodeNameTouched == ButtonName.radialGradient.rawValue {
-                view.presentScene(DemoSceneRadielGradient(size: sceneSize), transition: defaultTransition)
+                view.presentScene(DemoSceneRadielGradient(size: sceneSize), transition: getDefaultTransition())
             } else if nodeNameTouched == ButtonName.arrowNode.rawValue {
-                view.presentScene(DemoSceneArrowNode(size: sceneSize), transition: defaultTransition)
+                view.presentScene(DemoSceneArrowNode(size: sceneSize), transition: getDefaultTransition())
             } else if nodeNameTouched == ButtonName.shakeAction.rawValue {
-                view.presentScene(DemoSceneShakeAction(size: sceneSize), transition: defaultTransition)
+                view.presentScene(DemoSceneShakeAction(size: sceneSize), transition: getDefaultTransition())
             } else if nodeNameTouched == ButtonName.spiralAction.rawValue {
-                view.presentScene(DemoSceneSpiralAction(size: sceneSize), transition: defaultTransition)
+                view.presentScene(DemoSceneSpiralAction(size: sceneSize), transition: getDefaultTransition())
             } else if nodeNameTouched == ButtonName.emitterLabel.rawValue {
-                view.presentScene(DemoSceneEmitterLabel(size: sceneSize), transition: defaultTransition)
+                view.presentScene(DemoSceneEmitterLabel(size: sceneSize), transition: getDefaultTransition())
             } else if nodeNameTouched == ButtonName.button.rawValue {
-                view.presentScene(DemoSceneButton(size: sceneSize), transition: defaultTransition)
+                view.presentScene(DemoSceneButton(size: sceneSize), transition: getDefaultTransition())
             }
         }
     }
