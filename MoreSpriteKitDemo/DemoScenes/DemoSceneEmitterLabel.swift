@@ -5,7 +5,12 @@ class DemoSceneEmitterLabel: DemoScene {
 
     override func didMove(to view: SKView) {
         super.didMove(to: view)
-        let actions: [SKAction] = [.run { self.addEmitterLabel() }, .wait(forDuration: 10)]
+        let actions: [SKAction] = [
+            .run { [weak self] in
+                self?.addEmitterLabel()
+            },
+            .wait(forDuration: 10)
+        ]
         run(actions.sequence().forever())
     }
 

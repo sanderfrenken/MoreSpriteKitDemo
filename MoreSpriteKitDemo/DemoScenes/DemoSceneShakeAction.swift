@@ -6,7 +6,12 @@ class DemoSceneShakeAction: DemoScene {
     override func didMove(to view: SKView) {
         super.didMove(to: view)
         addChildNodes()
-        let actions: [SKAction] = [.run { self.shakeChildren() }, .wait(forDuration: 5)]
+        let actions: [SKAction] = [
+            .run { [weak self] in
+                self?.shakeChildren()
+            },
+            .wait(forDuration: 5)
+        ]
         run(actions.sequence().forever())
     }
 

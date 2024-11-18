@@ -18,7 +18,7 @@
 		E08D09FE2C88914500366FDB /* DemoSceneArrowNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08D09F62C88914500366FDB /* DemoSceneArrowNode.swift */; };
 		E08D09FF2C88914500366FDB /* DemoSceneButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08D09F72C88914500366FDB /* DemoSceneButton.swift */; };
 		E08D0A002C88914500366FDB /* DemoSceneSpiralAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08D09F82C88914500366FDB /* DemoSceneSpiralAction.swift */; };
-		E08D0A012C88914500366FDB /* DemoSceneRadielGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08D09F92C88914500366FDB /* DemoSceneRadielGradient.swift */; };
+		E08D0A012C88914500366FDB /* DemoSceneRadialGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08D09F92C88914500366FDB /* DemoSceneRadialGradient.swift */; };
 		E08D0A022C88914500366FDB /* DemoSceneEmitterLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08D09FA2C88914500366FDB /* DemoSceneEmitterLabel.swift */; };
 		E08D0A032C88914500366FDB /* DemoSceneShakeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08D09FB2C88914500366FDB /* DemoSceneShakeAction.swift */; };
 		E08D0A052C88915C00366FDB /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08D0A042C88915C00366FDB /* Utils.swift */; };
@@ -45,7 +45,7 @@
 		E08D09F62C88914500366FDB /* DemoSceneArrowNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoSceneArrowNode.swift; sourceTree = "<group>"; };
 		E08D09F72C88914500366FDB /* DemoSceneButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoSceneButton.swift; sourceTree = "<group>"; };
 		E08D09F82C88914500366FDB /* DemoSceneSpiralAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoSceneSpiralAction.swift; sourceTree = "<group>"; };
-		E08D09F92C88914500366FDB /* DemoSceneRadielGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoSceneRadielGradient.swift; sourceTree = "<group>"; };
+		E08D09F92C88914500366FDB /* DemoSceneRadialGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoSceneRadialGradient.swift; sourceTree = "<group>"; };
 		E08D09FA2C88914500366FDB /* DemoSceneEmitterLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoSceneEmitterLabel.swift; sourceTree = "<group>"; };
 		E08D09FB2C88914500366FDB /* DemoSceneShakeAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoSceneShakeAction.swift; sourceTree = "<group>"; };
 		E08D0A042C88915C00366FDB /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
@@ -109,7 +109,7 @@
 				E08D09F62C88914500366FDB /* DemoSceneArrowNode.swift */,
 				E08D09F72C88914500366FDB /* DemoSceneButton.swift */,
 				E08D09FA2C88914500366FDB /* DemoSceneEmitterLabel.swift */,
-				E08D09F92C88914500366FDB /* DemoSceneRadielGradient.swift */,
+				E08D09F92C88914500366FDB /* DemoSceneRadialGradient.swift */,
 				E08D09FB2C88914500366FDB /* DemoSceneShakeAction.swift */,
 				E08D09F82C88914500366FDB /* DemoSceneSpiralAction.swift */,
 			);
@@ -231,7 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E08D09E42C8890E700366FDB /* GameScene.swift in Sources */,
-				E08D0A012C88914500366FDB /* DemoSceneRadielGradient.swift in Sources */,
+				E08D0A012C88914500366FDB /* DemoSceneRadialGradient.swift in Sources */,
 				E08D09FC2C88914500366FDB /* DemoScene.swift in Sources */,
 				E08D0A022C88914500366FDB /* DemoSceneEmitterLabel.swift in Sources */,
 				E08D0A002C88914500366FDB /* DemoSceneSpiralAction.swift in Sources */,

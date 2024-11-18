@@ -13,7 +13,12 @@ class DemoSceneAnimatedLabel: DemoScene {
         let label = MSKAnimatedLabel(text: newText, horizontalAlignment: .left, durationPerCharacter: 0.025, labelWidth: 200)
         label.position.x -= 100
         addChild(label)
-        let actions: [SKAction] = [.wait(forDuration: 12.0), .run { label.update(text: newText) }]
+        let actions: [SKAction] = [
+            .wait(forDuration: 12.0),
+            .run {
+                label.update(text: newText)
+            }
+        ]
         label.run(actions.sequence().forever())
     }
 

@@ -27,7 +27,7 @@ class GameScene: SKScene {
             if nodeNameTouched == ButtonName.animatedLabel.rawValue {
                 view.presentScene(DemoSceneAnimatedLabel(size: sceneSize), transition: getDefaultTransition())
             } else if nodeNameTouched == ButtonName.radialGradient.rawValue {
-                view.presentScene(DemoSceneRadielGradient(size: sceneSize), transition: getDefaultTransition())
+                view.presentScene(DemoSceneRadialGradient(size: sceneSize), transition: getDefaultTransition())
             } else if nodeNameTouched == ButtonName.arrowNode.rawValue {
                 view.presentScene(DemoSceneArrowNode(size: sceneSize), transition: getDefaultTransition())
             } else if nodeNameTouched == ButtonName.shakeAction.rawValue {

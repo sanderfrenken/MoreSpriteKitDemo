@@ -5,7 +5,12 @@ class DemoSceneSpiralAction: DemoScene {
 
     override func didMove(to view: SKView) {
         super.didMove(to: view)
-        let actions: [SKAction] = [.run { self.addSpiralNode() }, .wait(forDuration: 8)]
+        let actions: [SKAction] = [
+            .run { [weak self] in
+                self?.addSpiralNode()
+            },
+            .wait(forDuration: 8)
+        ]
         run(actions.sequence().forever())
         addSpiralNode()
     }

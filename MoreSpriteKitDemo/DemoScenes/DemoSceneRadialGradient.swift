@@ -1,14 +1,14 @@
 import MoreSpriteKit
 import SpriteKit
 
-class DemoSceneRadielGradient: DemoScene {
+class DemoSceneRadialGradient: DemoScene {
 
     override func didMove(to view: SKView) {
         super.didMove(to: view)
-        addRadielGradient()
+        addRadialGradient()
     }
 
-    private func addRadielGradient() {
+    private func addRadialGradient() {
         let radialGradientSize = CGSize(width: 150, height: 150)
         let radialGradientColors = [UIColor.red, UIColor.blue, UIColor.green, UIColor.blue, UIColor.orange]
         let radialGradientLocations: [CGFloat] = [0, 0.25, 0.45, 0.65, 1.0]
