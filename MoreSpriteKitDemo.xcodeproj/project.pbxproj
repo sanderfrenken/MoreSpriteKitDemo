@@ -30,6 +30,7 @@
 		E08D0A192C8892FE00366FDB /* MoreSpriteKit in Frameworks */ = {isa = PBXBuildFile; productRef = E08D0A182C8892FE00366FDB /* MoreSpriteKit */; };
 		E08D0A1B2C8897E000366FDB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E08D0A1A2C8897E000366FDB /* README.md */; };
 		E08D0A1D2C88986700366FDB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E08D0A1C2C88986700366FDB /* LICENSE */; };
+		E098AC352D0847B5009F5164 /* DemoSceneLinearGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E098AC342D0847AF009F5164 /* DemoSceneLinearGradient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		E08D0A102C88923000366FDB /* spiralParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = spiralParticle.sks; sourceTree = "<group>"; };
 		E08D0A1A2C8897E000366FDB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E08D0A1C2C88986700366FDB /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E098AC342D0847AF009F5164 /* DemoSceneLinearGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoSceneLinearGradient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				E08D09F72C88914500366FDB /* DemoSceneButton.swift */,
 				E08D09FA2C88914500366FDB /* DemoSceneEmitterLabel.swift */,
 				E08D09F92C88914500366FDB /* DemoSceneRadialGradient.swift */,
+				E098AC342D0847AF009F5164 /* DemoSceneLinearGradient.swift */,
 				E08D09FB2C88914500366FDB /* DemoSceneShakeAction.swift */,
 				E08D09F82C88914500366FDB /* DemoSceneSpiralAction.swift */,
 			);
@@ -232,6 +235,7 @@
 			files = (
 				E08D09E42C8890E700366FDB /* GameScene.swift in Sources */,
 				E08D0A012C88914500366FDB /* DemoSceneRadialGradient.swift in Sources */,
+				E098AC352D0847B5009F5164 /* DemoSceneLinearGradient.swift in Sources */,
 				E08D09FC2C88914500366FDB /* DemoScene.swift in Sources */,
 				E08D0A022C88914500366FDB /* DemoSceneEmitterLabel.swift in Sources */,
 				E08D0A002C88914500366FDB /* DemoSceneSpiralAction.swift in Sources */,
@@ -497,7 +501,7 @@
 			repositoryURL = "https://github.com/sanderfrenken/MoreSpriteKit";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.1;
+				minimumVersion = 2.1.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/sanderfrenken/MoreSpriteKit",
       "state" : {
-        "revision" : "b0fac620052bdd7137b4257d9828051fd7f830a4",
-        "version" : "2.0.1"
+        "revision" : "32d1c0e82a5cdd20557617a95de107d9c2bbd7c3",
+        "version" : "2.1.0"
       }
     }
   ],

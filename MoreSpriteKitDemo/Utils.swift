@@ -14,6 +14,7 @@ enum ButtonName: String {
     case back
     case button
     case radialGradient
+    case linearGradient
     case animatedLabel
     case arrowNode
     case spiralAction
